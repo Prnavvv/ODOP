@@ -1,0 +1,47 @@
+/* Navbar.css */
+
+.nav2 nav{
+    height: 70px;
+   color: white;
+}
+.nav2 {
+  background: linear-gradient(to right, #f98ea0, #f2bfa1 50%); 
+    color: white;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+      margin-left: 10vw;
+      color: white;
+  }
+  
+  .nav2-links li
+  {
+    display: inline-block;
+   margin: 10px 35px;
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 120%;
+    transition: color 0.3s;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .nav2-links li:hover {
+    color: #352e58
+    
+  }
+  
+.nav2-links hr {
+  margin: 0px 5px;
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 20px;
+  background-color: #FF4141;
+  opacity: 100%;
+}

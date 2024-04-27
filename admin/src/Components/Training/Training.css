@@ -1,0 +1,40 @@
+/* Style for the container div */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  width: 100%; /* Cover the whole width of the page */
+  margin: 0; /* Remove any default margins */
+}
+
+/* Style for each section */
+.section {
+  margin-bottom: 20px; /* Adjust spacing between sections as needed */
+  text-align: center; /* Center text horizontally */
+}
+
+/* Style for the headings */
+h1 {
+  margin-bottom: 10px; /* Adjust spacing between heading and videos */
+}
+
+/* Style for videos */
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center videos horizontally */
+}
+
+/* Style for each video wrapper */
+.video-wrapper {
+  margin-right: 10px; /* Adjust spacing between videos as needed */
+  border-radius: 10px; /* Add border-radius to create curved corners */
+  overflow: hidden; /* Ensure the box shadow does not overflow */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transition effect for box-shadow and transform */
+}
+
+/* Apply box shadow and scale on hover */
+.video-wrapper:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase intensity of box shadow on hover */
+  transform: scale(1.05); /* Scale up the video wrapper slightly on hover */
+}

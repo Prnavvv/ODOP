@@ -1,0 +1,65 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: bolder;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #2c3e50; /* Dark blue */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 20px 20px 20px;
+    background-color: #ecf0f1; /* Light gray */
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: bolder;
+}
+
+section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+h2, h3 {
+    margin-top: 0;
+    text-align: center;
+    color: #2980b9; /* Dark blue */
+    font-weight: 900;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    width: calc(50% - 20px);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.box:hover {
+    background-color: #f9ebae; /* Light yellow */
+    background-image: linear-gradient(to right, #f5788d, #f2bfa1 50%); /* Linear gradient on hover */
+    transition: background-color 0.3s, background-image 0.3s; /* Smooth transition */
+}

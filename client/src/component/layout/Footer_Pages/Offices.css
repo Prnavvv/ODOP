@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.page-wrapper {
+    background-color: #f2f2f2; /* Light grey background */
+}
+
+header {
+    background-color: #2c3e50; /* Dark blue */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    padding: 40px 20px; /* Increased padding to increase section height */
+    margin: 10px 20px 40px 20px; /* Adjusted margin for spacing */
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    font-size: 18px; /* Increased font size */
+}
+
+section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top, #aed6ff, white 60%);
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #2980b9; /* Dark blue */
+    font-size: 24px; /* Increased font size */
+}
+
+p {
+    margin: 20px 0; /* Adjusted margin for spacing */
+}

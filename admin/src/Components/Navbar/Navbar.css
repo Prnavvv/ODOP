@@ -1,0 +1,73 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+}
+.nav-logo{
+    width: 200px;
+}
+.nav-profile{
+    width: 75px;
+}
+@media (max-width:800px){
+.navbar{
+    padding: 15px 30px;
+}
+.nav-logo{
+    width: 150px;
+}
+.nav-profile{
+    width: 60px;
+}
+}
+
+.login-button {
+    background-color: white;
+    /* Steel Blue */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0px 10px;
+  }
+  
+  .login-button:hover{
+    background: linear-gradient(to right, #f5788d, #f2bfa1 50%); 
+      color: white;
+  }
+
+  .logout-button {
+    background: linear-gradient(to right, #f5788d, #f2bfa1 50%); 
+    /* Red */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .logout-button:hover {
+    background: linear-gradient(to right, #f43d5c, #ea7e40 50%); 
+    /* Darker red */
+  }
